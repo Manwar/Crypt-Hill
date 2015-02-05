@@ -1,6 +1,7 @@
 package Crypt::Hill::Utils;
 
-$Crypt::Hill::Utils::VERSION = '0.04';
+$Crypt::Hill::Utils::VERSION   = '0.05';
+$Crypt::Hill::Utils::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
 
@@ -8,7 +9,7 @@ Crypt::Hill::Utils - Utils package for Crypt::Hill.
 
 =head1 VERSION
 
-Version 0.04
+Version 0.05
 
 =cut
 
@@ -205,7 +206,7 @@ L<http://search.cpan.org/dist/Crypt-Hill/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright (C) 2014 Mohammad S Anwar.
+Copyright (C) 2014 - 2015 Mohammad S Anwar.
 
 This  program  is  free software; you can redistribute it and/or modify it under
 the  terms  of the the Artistic License (2.0). You may obtain a copy of the full

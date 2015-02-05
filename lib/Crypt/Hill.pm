@@ -1,6 +1,7 @@
 package Crypt::Hill;
 
-$Crypt::Hill::VERSION = '0.04';
+$Crypt::Hill::VERSION   = '0.05';
+$Crypt::Hill::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
 
@@ -8,7 +9,7 @@ Crypt::Hill - Interface to the Hill cipher (2x2).
 
 =head1 VERSION
 
-Version 0.04
+Version 0.05
 
 =cut
 
@@ -197,7 +198,7 @@ L<http://search.cpan.org/dist/Crypt-Hill/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright (C) 2014 Mohammad S Anwar.
+Copyright (C) 2014 - 2015 Mohammad S Anwar.
 
 This  program  is  free software; you can redistribute it and/or modify it under
 the  terms  of the the Artistic License (2.0). You may obtain a copy of the full
