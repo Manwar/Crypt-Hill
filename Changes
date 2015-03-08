@@ -1,5 +1,8 @@
 Revision history for Crypt-Hill
 
+0.06  Sun Mar 08 04:50:00 2015
+      - Tidied up pod document.
+
 0.05  Thu Feb 05 11:25:00 2015
       - Updated MANIFEST.SKIP file to ignore folder '_eumm'.
       - Added LICENSE file.

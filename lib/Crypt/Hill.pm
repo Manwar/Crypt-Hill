@@ -1,6 +1,6 @@
 package Crypt::Hill;
 
-$Crypt::Hill::VERSION   = '0.05';
+$Crypt::Hill::VERSION   = '0.06';
 $Crypt::Hill::AUTHORITY = 'cpan:MANWAR';
 
 =head1 NAME
@@ -9,7 +9,7 @@ Crypt::Hill - Interface to the Hill cipher (2x2).
 
 =head1 VERSION
 
-Version 0.05
+Version 0.06
 
 =cut
 
@@ -65,9 +65,9 @@ sub BUILD {
 
 =head1 METHODS
 
-=head2 encode($plain_message)
+=head2 encode($message)
 
-Encodes the plain message using the key provided.
+Encodes the message using the key provided and returns encoded message.
 
     use strict; use warnings;
     use Crypt::Hill;
