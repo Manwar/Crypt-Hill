@@ -11,7 +11,6 @@ WriteMakefile(
     VERSION_FROM       => 'lib/Crypt/Hill.pm',
     ABSTRACT_FROM      => 'lib/Crypt/Hill.pm',
     LICENSE            => 'artistic_2',
-    PL_FILES           => {},
     MIN_PERL_VERSION   => 5.006,
     CONFIGURE_REQUIRES => {
         'ExtUtils::MakeMaker' => 0,
@@ -20,8 +19,8 @@ WriteMakefile(
         'Test::More' => 0,
     },
     PREREQ_PM => {
-        'Moo'              => 0,
-        'namespace::clean' => 0,
+        'Moo'              => '2.000000',
+        'namespace::clean' => '0.24',
     },
     dist  => { COMPRESS => 'gzip -9f', SUFFIX => 'gz', },
     clean => { FILES => 'Crypt-Hill-*' },
@@ -30,8 +29,8 @@ WriteMakefile(
         resources => {
             repository => {
                 type => 'git',
-                url  => 'https://github.com/Manwar/Crypt-Hill.git',
-                web  => 'https://github.com/Manwar/Crypt-Hill',
+                url  => 'https://github.com/manwar/Crypt-Hill.git',
+                web  => 'https://github.com/manwar/Crypt-Hill',
             },
         }})
      : ()
