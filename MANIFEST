@@ -11,3 +11,5 @@ t/01-crypt-hill.t
 t/02-crypt-hill.t
 t/manifest.t
 t/pod.t
+t/meta-json.t
+t/meta-yml.t
